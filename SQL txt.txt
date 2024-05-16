@@ -1,0 +1,13 @@
+
+school => school_id, school_name
+address => address_id,address details 
+Student => student_id,student_name,gender,dob,address, phone number
+Guardian => guardian_id, guardian_name,contacts
+teacher =>teacher_id,teacher_name,subject_taught,contacts
+subject => subject_id, subject_name
+departments => department_id, department_name,department_head, head_teacher
+classes  => class_id, class_name, teacher_id,
+classroom =>room_id,room_number, capacity 
+subject => subject_id, subject_name
+fee => fee_id,student_id,amount,date
+payment => payment_id,fee_id,amount_paid,date_paid,payment_method
